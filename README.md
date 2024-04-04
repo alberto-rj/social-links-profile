@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Repository](https://your-solution-url.com)
-- Live Site URL: [Demo](https://alberto-rj.github.io/social-links-profile/)
+- [Solution](https://www.frontendmentor.io/solutions/animated-social-links-profile-q4Q38XoMUF)
+- [Live Site](https://alberto-rj.github.io/social-links-profile/)
 
 ## My process
 
