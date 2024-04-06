@@ -1,18 +1,12 @@
-@font-face {
-  font-family: Inter;
-  src: url("assets/fonts/Inter.ttf");
-  font-display: swap;
-}
-
 :root {
   /* Colors */
-  --color-1: #01a3a4;
+  --color-1: #008384;
   --color-6: #c8d6e5;
   --color-9: #222f3e;
   --color-10: #ffffff;
 
   /* Typography */
-  --font-sans-serif: Inter, sans-serif; 
+  --font-sans-serif: Inter, sans-serif;
   --regular-font-size: 0.875rem;
 }
 
@@ -29,6 +23,7 @@ body {
   color: var(--color-9);
   font-family: var(--font-sans-serif);
   font-size: var(--regular-font-size);
+  font-display: swap;
   text-align: center;
   line-height: 1.5;
 }
