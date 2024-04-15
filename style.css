@@ -55,7 +55,7 @@ a:focus-visible {
 .card {
   background: var(--color-10);
   border-radius: 1rem;
-  box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 2px 8px 4px rgba(0, 0, 0, 0.25);
   padding: 2rem;
   max-width: 340px;
   margin: auto;
@@ -97,7 +97,7 @@ a:focus-visible {
 
 .card__list-item a {
   background: var(--color-1);
-  border-radius: 0.375rem;
+  border-radius: 1.5rem;
   color: var(--color-10);
   display: block;
   font-weight: 600;
@@ -112,6 +112,7 @@ a:focus-visible {
 }
 
 .attribution p {
+  font-size: 0.75rem;
   padding: 0 4rem 0.75rem 4rem;
 }
 
