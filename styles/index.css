@@ -23,7 +23,6 @@ body {
   color: var(--color-9);
   font-family: var(--font-sans-serif);
   font-size: var(--regular-font-size);
-  font-display: swap;
   text-align: center;
   line-height: 1.5;
 }
@@ -60,13 +59,45 @@ a:focus-visible {
   max-width: 340px;
   margin: auto;
 }
+.avatar {
+  cursor: pointer;
+  position: relative;
+}
+
+.circle-1,
+.circle-2 {
+  border: 1px solid;
+  border-color: var(--color-1) var(--color-1) var(--color-1) transparent;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 106px;
+  height: 106px;
+  transform: translate(-50%, -50%);
+  transition: transform 1.5s ease-in-out;
+}
+
+.circle-2 {
+  width: 7.375rem;
+  height: 7.375rem;
+  border-color: var(--color-1) transparent var(--color-1) var(--color-1);
+}
+
+.avatar:hover .circle-1 {
+  transform: translate(-50%, -50%) rotate(360deg);
+}
+
+.avatar:hover .circle-2 {
+  transform: translate(-50%, -50%) rotate(-360deg);
+}
 
 .card__user-photo {
   display: block;
   margin: 0 auto;
-  height: 120px;
+  height: 7.5rem;
   border-radius: 50%;
-  width: 120px;
+  width: 7.5rem;
 }
 
 .card__user-name {
@@ -130,8 +161,12 @@ a:focus-visible {
 /* animation */
 
 .traslate-from-left {
-  animation: translate-from-left 1.2s ease-in-out forwards;
+  animation: translate-from-left 0.5s ease-in-out forwards;
   opacity: 0;
+}
+
+.traslate-from-left--quick {
+  animation-duration: 0.25s;
 }
 
 .translate-delay-1 {
