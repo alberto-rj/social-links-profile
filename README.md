@@ -37,7 +37,7 @@ Users should be able to:
 ### Links
 
 - [Solution](https://www.frontendmentor.io/solutions/animated-social-links-profile-q4Q38XoMUF)
-- [Live Site](https://alberto-rj.github.io/social-links-profile/)
+- [Live Site](https://alberto-rj.github.io/social-links-profile/index.html)
 
 ## My process
 
